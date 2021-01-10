@@ -17,7 +17,7 @@ import android.view.SurfaceView;
 
 import java.io.IOException;
 
-public class SnakeGame extends SurfaceView implements Runnable {
+class SnakeGame extends SurfaceView implements Runnable {
 
     // Objects for the game loop/thread
     private Thread mThread = null;
